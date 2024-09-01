@@ -8,21 +8,6 @@ void trasforma_array(const size_t lenA , const int pA[],
                      size_t nmaxB, int *pB[])
 {
 
-    size_t lenB = 0;
-        for (size_t iA = 0; iA < lenA && lenB < nmaxB; ++iA) {
-                if(pA[iA] >= 10) {
-                    size_t num_copie;
-                    if(pA[iA] % 2 == 0){
-                        if(pA[iA] % 4 ==0)
-                            num_copie = 4;
-                        else
-                            num_copie = 2;
-                    }
-                }
-
-
-        }
-
 
 
 
