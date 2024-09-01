@@ -7,11 +7,28 @@
 void trasforma_array(const size_t lenA , const int pA[],
                      size_t nmaxB, int *pB[])
 {
+    size_t lenB = 0;
+    for (size_t i = 0; i < lenA && lenB < nmaxB ; ++i) {
+        if(pA[i] >= 10) {
+            size_t copie_num;
+            if (pA[i] % 2 == 0)
+                if (pA[i] % 4 == 0)
+                    copie_num = 4;
+                else
+                    copie_num = 2;
+            else
+                if(pA[i] % 3 == 0)
+                    copie_num = 0;
+                else
+                    copie_num =1;
+
+
+        }
+    }
 
 
 
 
-jknknwkdfnkwmnk
 
 
 }
