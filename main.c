@@ -11,7 +11,7 @@ void trasforma_array(const size_t lenA , const int pA[],
 
 
 
-
+jknknwkdfnkwmnk
 
 
 }
